@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURFAUZAN HANIF</title>
+  <style>
+    /* Reset some default styles */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: dimgray;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #444;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    section {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      flex-basis: 50%;
+    }
+
+    form {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    input,
+    button {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      width: 90%;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      margin-left: 10px;
+      height: 30px;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #444;
+      color: #fff;
+    }
+
+    h2{
+      padding-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>UAS BASIS DATA DOKUMEN</h1>
+    <h1>NURFAUZAN HANIF</h1>
+  </header>
+
+  <main>
+    <section class="auth-section">
+      <h2>SignUp</h2>
+      <form class="signup">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <button>Signup</button>
+      </form>
+  
+      <h2>LOGIN</h2>
+      <form class="login">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <button>Login</button>
+      </form>
+    
+      <h2>TAMBAH BUKU</h2>
+      <form class="add">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required>
+        <label for="author">Author:</label>
+        <input type="text" name="author" required>
+        <button>Add a New Book</button>
+      </form>
+  
+      <h2>HAPUS BUKU</h2>
+      <form class="delete">
+        <label for="id">Document id:</label>
+        <input type="text" name="id" required>
+
+        <button>delete a book</button>
+      </form>
+  
+      <h2>UPDATE BUKU</h2>
+      <form class="update">
+        <label for="id">Document id:</label>
+        <input type="text" name="id" required>
+
+        <button>update a book</button>
+      </form>
+ 
+      <h2>LOGOUT</h2>
+      <button class="logout">Logout</button>
+    
+      <h2>Unsubscribing</h2>
+      <button class="unsub">Unsubscribe from DB/Auth Changes</button>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2024 Firebase NURFAUZAN HANIF</p>
+  </footer>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>
